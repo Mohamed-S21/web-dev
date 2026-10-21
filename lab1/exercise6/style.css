@@ -1,0 +1,4 @@
+body { font-family: system-ui, sans-serif; margin: 2rem; }
+#value { font-size: 3rem; margin: 0.5rem 0; }
+#hint { color: #555; font-style: italic; min-height: 1.2em; }
+#preview { font-size: 1.5rem; color: #1a5276; min-height: 1.5em; }

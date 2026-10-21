@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Browser — Lab 3 Final Project</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>DAUST Course & Student Portal</h1>
+    <p>Dynamic Asynchronous Directory</p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Filter by name or company...">
+      <select id="cityFilter">
+        <option value="ALL">All Cities</option>
+      </select>
+      <button id="refreshBtn" type="button">Refresh Data</button>
+    </div>
+
+    <div id="statusMessage" class="status-msg"></div>
+
+    <section id="resultsContainer" class="cards-grid"></section>
+  </main>
+</body>
+</html>

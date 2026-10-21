@@ -1,0 +1,4 @@
+body { font-family: system-ui, sans-serif; margin: 2rem; }
+li { padding: 0.4rem 0; }
+.veg { color: #1e8449; font-weight: 600; }
+.veg::after { content: " 🌱"; }

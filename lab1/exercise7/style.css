@@ -1,0 +1,4 @@
+body { font-family: system-ui, sans-serif; margin: 2rem; }
+#error { color: crimson; min-height: 1.2em; }
+li { cursor: pointer; }
+.arrived { text-decoration: line-through; color: gray; }
